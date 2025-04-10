@@ -5,8 +5,8 @@
   "globals": {
     "hideFeedback": {
       "type": "string",
-      "default": "Hide feedback",
-      "title": "Hide feedback",
+      "default": "Ascunde feedback-ul",
+      "title": "Ascunde feedback-ul",
       "inputType": "Text",
       "translatable": true
     }
@@ -24,8 +24,8 @@
               "properties": {
                 "_type": {
                   "type": "string",
-                  "default": "notify",
-                  "title": "Type",
+                  "default": "notificare",
+                  "title": "Tip",
                   "inputType": {
                     "type": "Select",
                     "options": [
@@ -35,25 +35,25 @@
                       "none"
                     ]
                   },
-                  "help": "Question feedback display type"
+                  "help": "Tipul de afișare a feedback-ului pentru întrebare"
                 },
                 "_classes": {
                   "type": "string",
                   "default": "",
-                  "title": "Classes",
-                  "help": "Question feedback classes",
+                  "title": "Clase",
+                  "help": "Clasele pentru feedback-ul întrebării",
                   "inputType": "Text"
                 },
                 "_hasNotifyBottomButton": {
                   "type": "boolean",
                   "default": false,
-                  "title": "Enable notify bottom button",
+                  "title": "Activează butonul de jos pentru notificare",
                   "inputType": "Checkbox",
-                  "help": "If disabled and of type notify, the default close icon will be displayed"
+                  "help": "Dacă este dezactivat și tipul este notificare, va fi afișată pictograma implicită de închidere"
                 },
                 "_button": {
                   "type": "object",
-                  "title": "Close button",
+                  "title": "Buton de închidere",
                   "properties": {
                     "text": {
                       "type": "string",
@@ -61,15 +61,15 @@
                       "title": "Text",
                       "inputType": "Text",
                       "translatable": true,
-                      "help": "For notify and inline feedback buttons. Overlay will always show a cross."
+                      "help": "Pentru butoanele de feedback de tip notificare și în linie. Suprapunerea va afișa întotdeauna o cruce."
                     },
                     "ariaLabel": {
                       "type": "string",
                       "default": "{{_globals._extensions._tutor.hideFeedback}}",
-                      "title": "Aria label",
+                      "title": "Etichetă Aria",
                       "inputType": "Text",
                       "translatable": true,
-                      "help": "For the inline button and overlay close button. Notify will always read the Text."
+                      "help": "Pentru butonul în linie și butonul de închidere al suprapunerii. Notificarea va citi întotdeauna Textul."
                     }
                   }
                 }
@@ -87,14 +87,14 @@
                 "_isInherited": {
                   "type": "boolean",
                   "default": true,
-                  "title": "Use course defaults",
+                  "title": "Folosește setările implicite ale cursului",
                   "inputType": "Checkbox",
-                  "help": "If disabled, these settings will override the course defaults"
+                  "help": "Dacă este dezactivat, aceste setări vor suprascrie setările implicite ale cursului"
                 },
                 "_type": {
                   "type": "string",
-                  "default": "notify",
-                  "title": "Type",
+                  "default": "notificare",
+                  "title": "Tip",
                   "inputType": {
                     "type": "Select",
                     "options": [
@@ -104,25 +104,25 @@
                       "none"
                     ]
                   },
-                  "help": "Question feedback display type"
+                  "help": "Tipul de afișare a feedback-ului pentru întrebare"
                 },
                 "_classes": {
                   "type": "string",
                   "default": "",
-                  "title": "Classes",
-                  "help": "Question feedback classes",
+                  "title": "Clase",
+                  "help": "Clasele pentru feedback-ul întrebării",
                   "inputType": "Text"
                 },
                 "_hasNotifyBottomButton": {
                   "type": "boolean",
                   "default": false,
-                  "title": "Enable notify bottom button",
+                  "title": "Activează butonul de jos pentru notificare",
                   "inputType": "Checkbox",
-                  "help": "If disabled and of type notify, the default close icon will be displayed"
+                  "help": "Dacă este dezactivat și tipul este notificare, va fi afișată pictograma implicită de închidere"
                 },
                 "_button": {
                   "type": "object",
-                  "title": "Close button",
+                  "title": "Buton de închidere",
                   "properties": {
                     "text": {
                       "type": "string",
@@ -130,15 +130,15 @@
                       "title": "Text",
                       "inputType": "Text",
                       "translatable": true,
-                      "help": "For notify and inline feedback buttons. Overlay will always show a cross."
+                      "help": "Pentru butoanele de feedback de tip notificare și în linie. Suprapunerea va afișa întotdeauna o cruce."
                     },
                     "ariaLabel": {
                       "type": "string",
                       "default": "{{_globals._extensions._tutor.hideFeedback}}",
-                      "title": "Aria label",
+                      "title": "Etichetă Aria",
                       "inputType": "Text",
                       "translatable": true,
-                      "help": "For the inline button and overlay close button. Notify will always read the Text."
+                      "help": "Pentru butonul în linie și butonul de închidere al suprapunerii. Notificarea va citi întotdeauna Textul."
                     }
                   }
                 }
